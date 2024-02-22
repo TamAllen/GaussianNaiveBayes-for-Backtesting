@@ -4,7 +4,7 @@ from Selection.FundamentalUniverseSelectionModel import FundamentalUniverseSelec
 #from Selection import FundamentalUniverseSelectionModel
 
 class BigTechUniverseSelectionModel(FundamentalUniverseSelectionModel):
-    def __init__(self, fine_size=10):
+    def __init__(self, fine_size=5):
         self.fine_size = fine_size
         self.month = -1
         super().__init__(True)
