@@ -34,8 +34,6 @@ The GNB model is trained every day as the cosmos changes. By default, it trains 
 
 As new TradeBars are added to the Alpha model's Update function, we gather the open-to-close return of the most recent TradeBar for each securities in the universe. We then use the GNB model for each security to anticipate its direction and return Insight objects accordingly.
 
-## Backtest Results
-
 
 
 
